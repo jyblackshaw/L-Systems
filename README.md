@@ -24,11 +24,12 @@ The `LSystem` class provides the following functionality:
 1. Clone or download this Unity project.
 2. Open the project in Unity.
 3. Navigate to the `LSystem` script for L-System visualization and modification.
-4. Run the Unity scene to visualize L-System patterns based on the specified rules and parameters.
+4. Choose the desired LSystem and displacement angle in the editor.
+6. Run the Unity scene to visualize L-System patterns based on the specified rules and parameters.
 
 # Dependencies
 
-- Unity (Version X.X.X)
+- Unity (Version 2021.3.15f1) or later.
 - Visual Studio or a compatible code editor
 
 # License
