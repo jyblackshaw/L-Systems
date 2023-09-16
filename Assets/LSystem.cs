@@ -33,28 +33,9 @@ public class LSystem : MonoBehaviour
     void OnDrawGizmos()
     {
         // Visualize L-System Pattern : Slider:
-        //Gizmos.color = Color.green;
-        //var leaf_str = Generate_Leaf_String("F", 5);
-        //Generate_Leaf_Pattern(leaf_str, displace_angle);
-
-        //Interpolated Visual:
-        if (draw_gizmos)
-        {
-            // Calculate the interpolation factor based on time and duration
-            float t = Mathf.Clamp01(Time.time / duration);  // Clamp between 0 and 1
-            displace_angle = Mathf.Lerp(startAngle, endAngle, t);
-
-            // If we've passed the end time, set the angle to endAngle
-            if (t >= 1.0f)
-            {
-                displace_angle = endAngle;
-            }
-
-            // Visualize L-System Pattern
-            Gizmos.color = Color.green;
-            var leaf_str = Generate_Leaf_String("F", 5);
-            Generate_Leaf_Pattern(leaf_str, displace_angle);
-        }
+        Gizmos.color = Color.green;
+        var leaf_str = Generate_Leaf_String("F", 5);
+        Generate_Leaf_Pattern(leaf_str, displace_angle);
     }
 
     private string Generate_Leaf_String(string axiom, int iter_count)
