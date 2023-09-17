@@ -1,4 +1,4 @@
-# L Systems
+# L Systems Visualizer
 
 This Unity project implements an L-System visualizer, allowing users to generate and visualize L-System patterns, which are often used to model the growth of plants and other natural structures. L-Systems, short for Lindenmayer Systems, are recursive grammars that iteratively replace characters in an initial axiom following predefined production rules. This recursive behavior produces intricate and complex patterns, resembling the growth of various organic structures.
 
