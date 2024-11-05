@@ -32,10 +32,6 @@ The `LSystem` class provides the following functionality:
 - Unity (Version 2021.3.15f1) or later.
 - Visual Studio or a compatible code editor
 
-# License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-
  
 ![ezgif com-video-to-gif (2)](https://github.com/jyblackshaw/L-Systems/assets/68715353/5c286ec2-1c95-42e7-bfad-05969691dbb3)
 
